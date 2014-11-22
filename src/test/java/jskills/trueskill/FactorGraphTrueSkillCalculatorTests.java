@@ -1,13 +1,13 @@
 package jskills.trueskill;
 
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 public class FactorGraphTrueSkillCalculatorTests {
 
     private FactorGraphTrueSkillCalculator calculator;
 
-    @BeforeMethod
+    @Before
     public void setup() {
         calculator = new FactorGraphTrueSkillCalculator();
     }

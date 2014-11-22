@@ -1,12 +1,12 @@
 package jskills.elo;
 
 import jskills.*;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.Collection;
 import java.util.Map;
 
-import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class DuellingEloTest {
     private final static double ErrorTolerance = 0.1;

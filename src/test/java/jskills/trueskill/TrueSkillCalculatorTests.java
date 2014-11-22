@@ -5,7 +5,7 @@ import jskills.*;
 import java.util.Collection;
 import java.util.Map;
 
-import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class TrueSkillCalculatorTests {
 

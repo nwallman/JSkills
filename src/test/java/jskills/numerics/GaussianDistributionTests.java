@@ -1,10 +1,11 @@
 package jskills.numerics;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 import static java.lang.Math.sqrt;
 import static jskills.numerics.MathUtils.square;
-import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class GaussianDistributionTests {
     private static final double ErrorTolerance = 0.000001;

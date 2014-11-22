@@ -1,7 +1,7 @@
 package jskills.elo;
 
 import jskills.PairwiseComparison;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static jskills.elo.EloAssert.assertChessRating;
 

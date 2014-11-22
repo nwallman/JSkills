@@ -1,10 +1,10 @@
 package jskills.numerics;
 
 import org.ejml.simple.SimpleMatrix;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class MatrixTests {
     private static double ERROR_TOLERANCE = 0.0000000000001;
